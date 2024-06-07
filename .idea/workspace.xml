@@ -4,40 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9339808-c4d9-4c11-99a1-e80c179588b5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workout_api.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/atleta/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/atleta/controller.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/atleta/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/atleta/schemas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/categorias/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/categorias/controller.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/categorias/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/categorias/schemas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/centro_treinamento/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/centro_treinamento/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/centro_treinamento/schemas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/config/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/config/database.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/config/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/contrib/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/contrib/dependencies.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/contrib/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/contrib/repository/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/contrib/repository/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/contrib/schemas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/routes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+    <list default="true" id="c9339808-c4d9-4c11-99a1-e80c179588b5" name="Changes" comment="projeto python vivo dio categorias finalizado">
+      <change afterPath="$PROJECT_DIR$/app/centro_treinamento/controller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/atleta/controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/atleta/controller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/atleta/schemas.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/atleta/schemas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/centro_treinamento/schemas.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/centro_treinamento/schemas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +27,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "djchristiandf"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/djchristiandf/workout_api.git",
+    "accountId": "f0130cdb-6129-43a2-9228-e0171ed7a92b"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -68,10 +53,14 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "ignore_missing_gitignore": "true",
+    "last_opened_file_path": "/home/bruna/PycharmProjects/workout_api/app/centro_treinamento",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/centro_treinamento" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app" />
     </key>
@@ -92,6 +81,15 @@
       <option name="presentableId" value="Default" />
       <updated>1716405940901</updated>
     </task>
+    <task id="LOCAL-00001" summary="projeto python vivo dio categorias finalizado">
+      <option name="closed" value="true" />
+      <created>1717713462581</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1717713462581</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -104,5 +102,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="projeto python vivo dio categorias finalizado" />
+    <option name="LAST_COMMIT_MESSAGE" value="projeto python vivo dio categorias finalizado" />
   </component>
 </project>
